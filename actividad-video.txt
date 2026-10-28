@@ -1,0 +1,63 @@
+Qué es un token?
+chatGPT: ¿Qué es un token en programación?
+
+Un token es una pequeña unidad de información que una computadora o un programa puede procesar. Sin embargo, su significado depende del contexto en el que lo escuches.
+
+Si estás empezando a programar, hay 3 tipos de tokens que conviene conocer.
+1. 🧠 Token en inteligencia artificial (IA)
+
+Si trabajas con herramientas como ChatGPT, un token es una pequeña parte del texto que la inteligencia artificial utiliza para procesar la información.
+
+Por ejemplo, imagina que escribes:
+
+    Hola, ¿cómo estás?
+
+La IA puede dividir esa frase en varios tokens. Un token puede ser una palabra completa, una parte de una palabra o un signo de puntuación.
+
+Mira este ejemplo aproximado:
+Texto	Posibles tokens
+Hola	Hola
+Programación	Programa + ción
+Hola, mundo	Hola + , + mundo
+
+Importante: esta división es ilustrativa. La cantidad y la división exactas dependen del modelo y de su sistema de tokenización.
+
+¿Por qué importa esto?
+
+    Los modelos de IA procesan el texto mediante tokens.
+    Algunas herramientas cobran por la cantidad de tokens utilizados.
+    Los modelos tienen límites de tokens que pueden procesar en una conversación o solicitud.
+
+Gemini:
+    Para alguien que está empezando a programar, la palabra "token" puede aparecer en dos mundos completamente distintos. Dependiendo de dónde la leas, significará una cosa u otra.
+
+Aquí te explico las dos definiciones más importantes sin tecnicismos complejos:
+1. El Token en la Programación Tradicional (El bloque de código)
+
+En el análisis de código (lo que hace una computadora cuando lee tu programa para entenderlo), un token es la unidad más pequeña de significado.
+
+Imagina que una oración en español está formada por palabras, y esas palabras a su vez se componen de letras. En programación:
+
+    Tu código completo es la oración.
+
+    Los tokens son las palabras individuales que la computadora puede reconocer y procesar.
+
+Por ejemplo, si escribes esta simple línea de código en JavaScript:
+JavaScript
+
+let edad = 20;
+
+La computadora la divide en los siguientes tokens:
+
+    let (una palabra reservada del lenguaje).
+
+    edad (un identificador o nombre de variable).
+
+    = (un operador de asignación).
+
+    20 (un valor numérico o literal).
+
+    ; (un símbolo de puntuación que cierra la instrucción).
+
+¿Por qué te importa esto ahora? Cuando cometas un error de sintaxis (por ejemplo, escribir mal una palabra clave o olvidar cerrar un paréntesis), el editor de código o el compilador te dirá algo como "Error de sintaxis cerca del token...". Significa que en esa "palabra" específica se rompió la regla del lenguaje.
+
